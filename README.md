@@ -170,7 +170,7 @@ def plot_generated_images(epoch, generator, examples=100, dim=(10, 10), figsize=
         plt.imshow(generated_images[i], interpolation='nearest', cmap='gray_r')
         plt.axis('off')
     plt.tight_layout()
-    plt.savefig('/content/gan_images/gan_generated_image_epoch_%d.png' % epoch)
+    plt.savefig('/content/gdrive/MyDrive/gan_generated_image_epoch_%d.png' % epoch)
 ```
 <br/>
 이제 완성된 네트워크를 학습시키는 일만이 남았다. 학습이 완료된 후 결과를 확인하도록 하자.<br/>
