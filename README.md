@@ -229,7 +229,8 @@ if __name__ == '__main__':
 ![image](https://user-images.githubusercontent.com/76294398/112953792-ba24a980-9178-11eb-96a4-65b052a44e65.png)
 
 <br/><br/>
-
+![ANY_0401221008](https://user-images.githubusercontent.com/76294398/113298982-5ac0c800-9337-11eb-881e-0340acf1fa4a.gif)
+<br/><br/>
 ## **3) 결론**<br/>
 
 이번 튜토리얼을 통해, 우리는 GAN의 기본을 수학적인 수식 없이 직관적으로 학습하였다. 또한 Keras 라이브러리의 도움을 받아 첫 번째 모델을 구현해냈다.<br/>
