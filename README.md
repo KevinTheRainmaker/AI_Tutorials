@@ -36,12 +36,16 @@ Generative 네트워크는 실제 이미지와 비슷한 모습을 계속해서 
 <br/>
 matplotlib는 plot을 그리는데 사용할 것이고, Tensorflow는 Keras의 Back-End로 이용할 것이다. 또한 tqdm을 이용해서 모델이 각 epoch 마다 어떠한 결과를 내고 있는지 보여줄 것이다.
 <br/>
+또한, 생성된 이미지를 저장하기위해 구글드라이브를 연동시켰다.
+</br>
 
 ```python
 import os
 import numpy as np
 import matplotlib.pyplot as plt
 from tqdm import tqdm
+from google.colab import drive
+drive.mount('/content/gdrive')
 
 from keras.layers import Input
 from keras.models import Model, Sequential
