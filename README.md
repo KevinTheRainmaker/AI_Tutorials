@@ -155,7 +155,7 @@ def get_gan_network(discriminator, random_dim, generator, optimizer):
 ```
 <br/>
 
-결과의 원활한 확인을 위해 20 epoch 마다 이미지를 생성하여 content/gan_images 폴더에 저장하도록 하자. <br/>
+결과의 원활한 확인을 위해 20 epoch 마다 이미지를 생성하여 앞서 연동시킨 구글드라이브 폴더인 content/gdrive/MyDrive에 저장하자. <br/>
 
 ```python
 # 생성된 MNIST 이미지를 보여주는 함수
