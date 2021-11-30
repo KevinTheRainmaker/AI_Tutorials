@@ -1,4 +1,4 @@
-# AI_PlayGround
+# AI_Tutorials
 
 ## 1. Understanding Generative Adversarial Networks (GANs)
 ### **0) GANs의 기본 아이디어**</br>
